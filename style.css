@@ -39,6 +39,41 @@ nav .media_and_loguin{
 
 nav .media_and_loguin ul li{
     list-style: none;
+    float: left;
+    margin-right: 25px;
+}
+
+nav .media_and_loguin ul li i{
+    color: black;
+    font-size: 35px;
+}
+
+nav .media_and_loguin button{
+    width: 100px;
+    height: 50px;
+    background-color:#5EBCFF;
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .media_and_loguin .btn{
+    display: inline-block; /*Para que el elemento ocupe parte del documenteo y no como un flotante*/
+    text-decoration: none; /*Quita el subrayado que genera el autum. al ser un link*/
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+nav .media_and_loguin .btn-loguin{
+    background-color:#5EBCFF;
+    color: #FFFF;
+    font-weight: bold;
 }
 
 
