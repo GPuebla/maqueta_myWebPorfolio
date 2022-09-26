@@ -7,11 +7,14 @@
 }
 
 nav{
+    position:fixed;
+    z-index: 1;
     display:grid;
     grid-template-columns: auto auto;
     background-color: #4B96CC;
     width: 100%;
-    height: 70px;
+    height: 60px;
+    box-shadow: 0 .6px 70px rgb(230, 230, 230);
 }
 
 nav .logo{
@@ -121,12 +124,72 @@ nav .media_and_loguin .btn-loguin{
     margin-top: 10px;
 }
 
-/* .test{
+.img_perfil{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+    background-image: url(./img/img_perfil2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius: 50%;
+    outline: 8px solid rgba(171, 220, 255, 0.3);
+
+}
+
+/*ABOUT ME*/
+
+.about_me{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 300px;
-} */
+    margin-top: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+}
 
+.title{
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
 
+.blue_title{
+    color: rgba(47, 94, 128, 1);
+}
+
+.white_title{
+    color: #FFFF;
+}
+
+.about_me p{
+    width: 700px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.blue_section{
+    background: linear-gradient(269.81deg, #2F5E80 87.43%, rgba(47, 94, 128, 0) 99.81%);
+}
+
+.item_section{
+    width:900px;
+    height: 140px;
+    border: #FFFF solid .8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgba(255, 255, 255, 0.623);
+
+}
 
 
 
